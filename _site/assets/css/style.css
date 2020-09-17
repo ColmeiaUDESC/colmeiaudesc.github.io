@@ -146,7 +146,7 @@ h2 { color: #393939; }
 
 h3, h4, h5, h6 { color: #494949; }
 
-a { color: #267CB9; text-decoration: none; }
+a { color: #000000; text-decoration: none; }
 
 a:hover, a:focus { color: #069; font-weight: bold; }
 
