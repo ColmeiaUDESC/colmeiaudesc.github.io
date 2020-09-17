@@ -18,16 +18,27 @@
     <header>
 
       {% if site.logo %}
-      <a href="{{ "/" | absolute_url }}"> 
+      <a href="{{ "/" | absolute_url }}">
         <img src="{{site.logo | relative_url}}" alt="Logo" />
       </a>
       {% endif %}
 
       <p class="site-description">{{ site.description | default: site.github.project_tagline }}</p>
-      <p class="Inicio" style="color: black;"><a href="">- Inicio</a></p>
-      <p class="Membros"><a href="\membros">- Membros</a></p>
-      <p class="Projetos"><a href="\projetos">- Projetos</a></p>
-      <p class="Sobre"><a href="\sobre">- Sobre nós</a></p>
+
+      <div class="nav-wrapper">
+        <a href="{{ "/" | absolute_url }}">
+          <button class="nav-button" type="button">Inicio</button>
+        </a>
+        <a href="{{ "/membros" | absolute_url }}">
+          <button class="nav-button" type="button">Membros</button>
+        </a>
+        <a href="{{ "/projetos" | absolute_url }}">
+          <button class="nav-button" type="button">Projetos</button>
+        </a>
+        <a href="{{ "/sobre" | absolute_url }}">
+          <button class="nav-button" type="button">Sobre nós</button>
+        </a>
+      </div>
 
     </header>
 

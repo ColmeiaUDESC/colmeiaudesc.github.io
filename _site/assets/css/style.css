@@ -220,4 +220,8 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 
 .site-description { padding-left: 5%; padding-right: 5%; text-align: justify; }
 
-/*# sourceMappingURL=style.css.map */
+.nav-wrapper { margin-top: 15%; }
+
+.nav-button { font-size: 24px; display: block; margin-top: 10%; width: 100%; padding-left: 8px; border-radius: 18px; padding-right: 8px; border-style: none; background-color: #ffcc29; transition: 0.5s; }
+
+.nav-button:hover { transition: 0.5s; background-color: #f29d10; }

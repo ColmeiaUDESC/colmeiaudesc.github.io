@@ -306,3 +306,26 @@ footer {
   padding-right: 5%;
   text-align: justify;
 }
+
+.nav-wrapper{
+  margin-top: 15%;
+}
+
+.nav-button{
+  font-size: 24px;
+  display: block;
+  margin-top: 10%;
+  width: 100%;
+  padding-left: 8px;
+  border-radius: 18px;
+  padding-right: 8px;
+  border-style: none;
+  background-color: #ffcc29;
+  transition: 0.5s;
+}
+
+.nav-button:hover
+{
+  transition: 0.5s;
+  background-color: #f29d10;
+}
