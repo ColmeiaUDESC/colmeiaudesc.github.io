@@ -172,7 +172,7 @@ th { color: #444; }
 
 img { max-width: 100%; }
 
-header { width: 270px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
+header { width: 270px; float: left; position: fixed; align-content: center; -webkit-font-smoothing: subpixel-antialiased; }
 
 ul.downloads { list-style: none; height: 40px; padding: 0; background: #f4f4f4; border-radius: 5px; border: 1px solid #e0e0e0; width: 270px; }
 
@@ -202,7 +202,7 @@ hr { border: 0; background: #e5e5e5; height: 1px; margin: 0 0 20px; }
 
 footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-smoothing: subpixel-antialiased; }
 
-@media print, screen and (max-width: 960px) { div.wrapper { width: auto; margin: 0; } header, section, footer { float: none; position: static; width: auto; } header { padding-right: 15%; padding-left: 15%; } section { border: 1px solid #e5e5e5; border-width: 1px 0; padding: 20px 0; margin: 0 0 20px; } header a small { display: inline; } header ul { position: absolute; right: 50px; top: 52px; } }
+@media print, screen and (max-width: 960px) { div.wrapper { width: auto; margin: 0; } header, section, footer { float: none; position: static; width: auto; } header { padding-right: 15%; padding-left: 15%; align-content: center; } section { border: 1px solid #e5e5e5; border-width: 1px 0; padding: 20px 0; margin: 0 0 20px; } header a small { display: inline; } header ul { position: absolute; right: 50px; top: 52px; } }
 
 @media print, screen and (max-width: 720px) { body { word-wrap: break-word; } header { padding: 0; } header ul, header p.view { position: static; } pre, code { word-wrap: normal; } }
 
@@ -214,10 +214,10 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 
 .social-links { display: block; color: #222; }
 
-.svg-icon { width: 16px; height: 16px; display: inline-block; fill: currentColor; padding: 5px 3px 2px 5px; vertical-align: text-bottom; }
+.svg-icon { width: 32px; height: 32px; display: inline-block; fill: currentColor; padding: 5px 3px 2px 5px; vertical-align: text-bottom; }
 
 .grey { color: #828282; }
 
-.site-description { padding-left: 5%; padding-right: 5%; text-align: center; }
+.site-description { padding-left: 5%; padding-right: 5%; text-align: justify; }
 
 /*# sourceMappingURL=style.css.map */
