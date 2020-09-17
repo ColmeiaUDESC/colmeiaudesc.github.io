@@ -1,5 +1,6 @@
 ---
 layout: post
+author: minha mãe
 title:  "Welcome to Jekyll!"
 date:   2020-09-15 02:30:29 -0300
 categories: jekyll update

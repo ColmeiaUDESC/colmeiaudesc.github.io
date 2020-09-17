@@ -1,0 +1,45 @@
+I"�<h1 id="nossos-membros">Nossos membros</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Membros</th>
+      <th> </th>
+      <th>Curso</th>
+      <th>Cargo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Bolsista</td>
+      <td>Kalyl Henings</td>
+      <td>Gerente de projetos</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Bolsista</td>
+      <td>Luciano Wayand de Abreu</td>
+      <td>Líder geral</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Voluntário</td>
+      <td>Alexandre Werner</td>
+      <td>-</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Voluntário</td>
+      <td>Jaasiel Abner Alves</td>
+      <td>-</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Voluntário</td>
+      <td>Matias Giuliano Gutierrez Benitez</td>
+      <td>Gerente de relações públicas</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+:ET
