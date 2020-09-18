@@ -10,4 +10,4 @@ permalink: /sobre/
 
 ⠀⠀⠀⠀⠀⠀Com o objetivo da disseminação de conhecimento em software e hardware livres o Colmeia além de seus projetos internos o projeto ministra aulas e minicursos de diversos temas, visitamos escolas e outras universidades com o objetivo de apresentar não só o Colmeia mas sim a ideologia do grupo.
 
-⠀⠀⠀⠀⠀⠀Somos responsáveis também pela organização de caravanas e eventos do mundo opensource tendo com sucesso organizado viagens para os maiores eventos de tecnologia livre como a Latinoware além de sediar eventos como o FLISoL (Festival Latino-americano de Instalação de Software Livre)
+⠀⠀⠀⠀⠀⠀Somos responsáveis também pela organização de caravanas e eventos do mundo opensource tendo com sucesso organizado viagens para os maiores eventos de tecnologia livre como a Latinoware além de sediar eventos como o FLISoL (Festival Latino-americano de Instalação de Software Livre).
