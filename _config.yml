@@ -4,8 +4,13 @@ description: Site oficial do grupo de extensão Socialização em Software Livre
 google_analytics:
 theme: jekyll-theme-minimal
 
+#Adaptado do tema minima
 social_links:
   youtube_channel: UC51KrWL94AfGxI_4l_E7uzA
   github:  colmeiaUDESC
   facebook: colmeiaudesc
   instagram: colmeiaudesc
+
+#Paginate
+paginate: 5
+paginate_path: /page:num/

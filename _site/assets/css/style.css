@@ -226,6 +226,6 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 
 .nav-button:hover { transition: 0.5s; background-color: #f29d10; }
 
-@media (max-height: 720px) { .nav-wrapper { margin-top: 2%; margin-bottom: 2%; } .nav-button { font-size: 16px; margin-top: 2%; width: 100%; } }
+@media (max-height: 768px) { .nav-wrapper { margin-top: 2%; margin-bottom: 2%; } .nav-button { font-size: 16px; margin-top: 2%; width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
