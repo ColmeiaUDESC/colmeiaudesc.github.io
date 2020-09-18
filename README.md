@@ -1,2 +1,2 @@
 # colmeiaudesc.github.io
-Este é o repositório do [site oficial](colmeiaudesc.github.io) do Colmeia. Ele foi desenvolvido utilizando como base no tema [minimal](https://github.com/pages-themes/minimal), e com os ícones de redes sociais do [minima](https://github.com/jekyll/minima)
+Este é o repositório do [site oficial](https://colmeiaudesc.github.io/) do Colmeia. Ele foi desenvolvido utilizando como base no tema [minimal](https://github.com/pages-themes/minimal), e com os ícones de redes sociais do [minima](https://github.com/jekyll/minima)
