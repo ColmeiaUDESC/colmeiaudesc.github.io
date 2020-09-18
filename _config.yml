@@ -13,4 +13,4 @@ social_links:
 
 #Paginate
 paginate: 5
-paginate_path: /page:num/
+paginate_path: "/index.md"
