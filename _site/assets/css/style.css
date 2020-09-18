@@ -210,9 +210,9 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
 
-.social-media-list { list-style: none; margin-left: 0; display: ruby-base-container; }
+.social-media-list { list-style: none; margin-left: 7%; display: flex; }
 
-.social-links { display: block; color: #222; }
+.social-links { display: block; color: #222; margin-top: 15%; }
 
 .svg-icon { width: 32px; height: 32px; display: inline-block; fill: currentColor; padding: 5px 3px 2px 5px; vertical-align: text-bottom; }
 

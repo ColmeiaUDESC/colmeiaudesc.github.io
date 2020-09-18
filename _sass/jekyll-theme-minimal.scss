@@ -278,13 +278,14 @@ footer {
 
 .social-media-list {
   list-style: none;
-  margin-left: 0;
-  display: ruby-base-container;
+  margin-left: 7%;
+  display: flex;
 }
 
 .social-links{
   display: block;
   color:#222;
+  margin-top:15%;
 }
 
 .svg-icon {
