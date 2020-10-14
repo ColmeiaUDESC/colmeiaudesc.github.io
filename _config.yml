@@ -14,3 +14,6 @@ social_links:
 #Paginate
 paginate: 5
 paginate_path: "/index.md"
+
+collections:
+  projetos:

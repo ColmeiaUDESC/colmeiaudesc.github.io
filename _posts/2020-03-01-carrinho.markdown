@@ -1,0 +1,9 @@
+---
+layout: post
+date: 2020-03-01
+title: Reconstrução do "Demolidão"
+author: Alexandre Werner
+tags: projetos exposicao
+---
+O Colmeia apresenta um projeto em fase de desenvolvimento apelidado de "demolidão", neste projeto o objetivo inicial dele é fazer um carrinho para ser utilizado ser apresentado em locais como eventos e escolas, utilizado de sensores ultrassônicos o carrinho deve identificar um possível obstáculo e fazer o desvio deste, o projeto também acaba prevendo algumas atualizações para o carrinho onde o objetivo final é criar uma forma de interação bem interessante entre o apresentador e espectador, onde por exemplo, a pessoa se conectaria com o carrinho utilizando o celular e controlaria o mesmo, além disso existem mais planos para que este projeto faça a experiência de explicação do projeto algo mais interessante.
+
