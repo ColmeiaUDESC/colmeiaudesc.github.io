@@ -13,7 +13,7 @@
 
   
 
-Tabela de conteúdos
+## Tabela de conteúdos
 
   
 
@@ -30,7 +30,7 @@ Tabela de conteúdos
   
 
 
-### Pré-requisitos
+## Pré-requisitos
 
   
 
@@ -40,7 +40,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 	• Ruby
 	
 
-### 🎲 Rodando o site de maneira local
+## 🎲 Rodando o site de maneira local
 
 ```bash
 # Clone este repositório
