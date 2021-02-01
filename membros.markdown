@@ -8,13 +8,12 @@ permalink: /membros/
 
 #### Atualmente nossos membros estão listados abaixo. Para participar do colmeia não é obrigatório cursar Ciência da Computação, todos são bem-vindos caso tenha interesse aguarde nosso processo seletivo!
 
-| Membros            |                                  |Curso                | Cargo
-|:-------------------|:---------------------------------|:--------------------|:-----------------------------|
-| Bolsista           | Kalyl Henings                    |Ciência da Computação| Gerente de projetos          |
-| Bolsista           | Luciano Wayand de Abreu          |Ciência da Computação| Líder geral                  |
-| Voluntário         | Alexandre Werner                 |Engenharia Elétrica  |        -                     |
-| Voluntário         | Jaasiel Abner Alves              |Ciência da Computação| -                            |
-| Voluntário         | Matias Giuliano Gutierrez Benitez|Ciência da Computação| Gerente de relações públicas |
+| Membros            |                                  |Curso                
+|:-------------------|:---------------------------------|:--------------------
+| Bolsista           | Kalyl Henings                    |Ciência da Computação
+| Bolsista           | Luciano Wayand de Abreu          |Ciência da Computação
+| Bolsista           | Alexandre Werner                 |Engenharia Elétrica  
+| Voluntário         | Matias Giuliano Gutierrez Benitez|Ciência da Computação
 
 O projeto é coordenado pelo professor [Gilmário Barbosa dos Santos][gilmario], diretor de ensino de TADS da [UDESC][udesc] no campus de ciências técnologicas. 
 
