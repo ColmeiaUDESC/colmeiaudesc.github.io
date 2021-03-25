@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# colmeiaudesc.github.io
-Este é o repositório do [Site oficial][site_oficial] do Colmeia. Ele foi desenvolvido utilizando como base o tema [minimal][minimal], e com os ícones de redes sociais do [minima][minima]
-=======
->>>>>>> d1dc17119f19780b2d482794ef4062713c7108e6
 
   
 
