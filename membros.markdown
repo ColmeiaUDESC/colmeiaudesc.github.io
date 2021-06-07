@@ -10,10 +10,11 @@ permalink: /membros/
 
 | Membros            |                                  |Curso                
 |:-------------------|:---------------------------------|:--------------------
+| Bolsista           | Alexandre Werner                 |Engenharia Elétrica  
+| Bolsista           | Ana Paula Maia		          |Ciência da Computação
 | Bolsista           | Kalyl Henings                    |Ciência da Computação
 | Bolsista           | Luciano Wayand de Abreu          |Ciência da Computação
-| Bolsista           | Alexandre Werner                 |Engenharia Elétrica  
-| Voluntário         | Matias Giuliano Gutierrez Benitez|Ciência da Computação
+| Aspirante          | Brian Laus Bertemes		  |Ciência da Computação
 
 O projeto é coordenado pelo professor [Gilmário Barbosa dos Santos][gilmario], diretor de ensino de TADS da [UDESC][udesc] no campus de ciências técnologicas. 
 
