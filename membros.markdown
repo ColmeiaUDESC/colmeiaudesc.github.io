@@ -27,7 +27,7 @@ permalink: /membros/
 | Aspirante          | Kalyl Henings                    |Ciência da Computação
 
 
-O projeto é coordenado pelo professor [Gilmário Barbosa dos Santos][gilmario], diretor de ensino de TADS da [UDESC][udesc] no campus de ciências técnologicas. 
+O projeto é coordenado pelo professor [Gilmário Barbosa dos Santos][gilmario], diretor de ensino de TADS da [UDESC][udesc] no Centro de Ciências Técnologicas. 
 
 [gilmario]: https://www.udesc.br/professor/gilmario.santos
 [udesc]: https://www.udesc.br/cct/home
