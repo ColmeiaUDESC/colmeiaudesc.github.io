@@ -11,4 +11,4 @@ tags: eventos colmeia
 
 <p style="text-align: justify">&emsp;Conosco, estavam presentes o ex-bolsista veterano supremo Kalyl Henings e Mônica Elisa Heinzelmann, CEO do projeto Resgate Oficial.</p>
 
-<div style="text-align: justify">&emsp;Para iniciar, abordamos a instalação do ambiente de programação em Python; afim de que os alunos fossem capazes de dar continuidade aos estudos em casa; fluxogramas, algoritmos e variáveis!</div>
+<p style="text-align: justify">&emsp;Para iniciar, abordamos a instalação do ambiente de programação em Python; afim de que os alunos fossem capazes de dar continuidade aos estudos em casa; fluxogramas, algoritmos e variáveis!</p>
