@@ -10,6 +10,6 @@ tags: eventos colmeia
 
 <p style="text-align: justify">&emsp;Foi a segunda aula de linguagem Python básico, ministrada por João Guilherme Vargas e Amyr Allan, e esquematizada por César Eduardo de Souza, bolsistas do projeto Colmeia e voluntários do projeto Resgate.</p>
 
-<div style="text-align: justify">&emsp;Dessa vez, abordando aritimética, valores booleanos e operadores de comparação!</div>
+<p style="text-align: justify">&emsp;Dessa vez, abordando aritmética, valores booleanos e operadores de comparação!</p>
 
 
