@@ -17,7 +17,7 @@ permalink: /membros/
 | Bolsista           | João Guilherme Vargas            |Ciência da Computação
 
 | Voluntário         | Amyr Allan                       |Ciência da Computação
-| Voluntária         | Geórgia Betina                   |-
+| Voluntária         | Geórgia Betina                   | Engenharia de Software
 | Voluntário         | Kawan Weege                      |Ciência da Computação
 | Voluntário         | Luciano Wayand de Abreu          |Ciência da Computação
 
