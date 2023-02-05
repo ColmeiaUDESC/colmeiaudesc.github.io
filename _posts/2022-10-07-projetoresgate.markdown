@@ -10,7 +10,7 @@ tags: eventos colmeia
 
 <p style="text-align: justify">&emsp;Foi a terceira aula de linguagem Python básico, ministrada por João Guilherme Vargas e Amyr Allan, e esquematizada por César Eduardo de Souza, bolsistas do projeto Colmeia e voluntários do projeto Resgate.</p>
 
-<div style="text-align: justify">&emsp;Dessa vez, ministrando revisões e exercícios.</div>
+<p style="text-align: justify">&emsp;Dessa vez, ministrando revisões e exercícios.</p>
 
 
 
