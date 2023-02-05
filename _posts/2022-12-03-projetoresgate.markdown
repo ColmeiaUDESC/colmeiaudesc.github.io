@@ -6,7 +6,7 @@ author: César Eduardo de Souza
 tags: eventos colmeia
 ---
 
-<div style="text-align: justify">&emsp;Foi a apresentação final do projeto resgate, no qual o grupo Colmeia ministrou aulas de linguagem Python nível básico, ministradas por João Guilherme Vargas e Amyr Allan, e César Eduardo de Souza, bolsistas da UDESC e voluntários do projeto Resgate.</div>
+<p style="text-align: justify">&emsp;Foi a apresentação final do projeto resgate, no qual o grupo Colmeia ministrou aulas de linguagem Python nível básico, ministradas por João Guilherme Vargas e Amyr Allan, e César Eduardo de Souza, bolsistas da UDESC e voluntários do projeto Resgate.</p>
 
 <iframe width="489" height="869" src="https://www.youtube.com/embed/0_XUD3ilWEk" title="AULAS DE PYTHON - PROJETO RESAGATE #6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
