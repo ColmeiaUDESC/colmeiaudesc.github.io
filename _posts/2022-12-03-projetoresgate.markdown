@@ -13,7 +13,7 @@ tags: eventos colmeia
 
 <iframe width="489" height="869" src="https://www.youtube.com/embed/e-btDQFdAxM" title="AULAS DE PYTHON - PROJETO RESGATE #8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<div style="text-align: justify">&emsp;No intuito de inserir nossos alunos no mundo da programação, apresentamos a linguagem Python e sua utilização básica, capacitando-os para produzir pequenos projetos em linha de comando, como os citados abaixo:</div>
+<p style="text-align: justify">&emsp;No intuito de inserir nossos alunos no mundo da programação, apresentamos a linguagem Python e sua utilização básica, capacitando-os para produzir pequenos projetos em linha de comando, como os citados abaixo:</p>
 
 <h4 style="text-align: justify">&emsp;Quiz - Felipe & Fernando</h4>
 
