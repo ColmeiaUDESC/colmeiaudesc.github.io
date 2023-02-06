@@ -6,7 +6,7 @@ author: César Eduardo de Souza
 tags: eventos colmeia
 ---
 
-![alt text](/assets/img/reuniaoResgate.jpg "Foto dos participantes da reunião do Projeto Resgate")
+![Foto dos participantes da reunião do Projeto Resgate](/assets/img/reuniaoResgate.jpg "Foto dos participantes da reunião do Projeto Resgate")
 
 <p style="text-align: justify">&emsp;Neste dia, enquanto João Guilherme Vargas e Amyr Allan ministravam a 4ª aula de Python, César Eduardo de Souza participou da reunião do Resgate, apresentado o grupo e nossas ideias, além de absorver novas delas.</p>
 
