@@ -17,15 +17,15 @@ tags: eventos colmeia
 
 <h4 style="text-align: justify">&emsp;Quiz - Felipe & Fernando</h4>
 
-![alt text](https://lh3.googleusercontent.com/vniMfQk1q3j9CgO3PfLzcaajo7S46wsQFgDuzCwkRW1LBO5jA6VaQ7wsAABKpyC75fWm4FMjZ49zaZKuhN-znd7IZ_P0yWM3HU-3LaQOmqu4RR5tu23_VNxmAL5pOtCIfhc93bO6rigA4lFQlPKJ5FV0=s2048 "Quiz - Felipe & Fernando")
+![Imagem de editor de texto mostrando código de Quiz - Felipe & Fernando](https://lh3.googleusercontent.com/vniMfQk1q3j9CgO3PfLzcaajo7S46wsQFgDuzCwkRW1LBO5jA6VaQ7wsAABKpyC75fWm4FMjZ49zaZKuhN-znd7IZ_P0yWM3HU-3LaQOmqu4RR5tu23_VNxmAL5pOtCIfhc93bO6rigA4lFQlPKJ5FV0=s2048 "Quiz - Felipe & Fernando")
 
 <h4 style="text-align: justify">&emsp;Calculadora de IMC - Bernardo & Pedro</h4>
 
-![alt text](https://lh4.googleusercontent.com/A-T4GUWVTp1c0--N9rrjJ_b2hkOI0jhwOTuxgrfWQLFew-n2pV5LmNh1r17VLX8NnjSJQNRMfQ3UMIpLKW1LffKCIwcG2llWOTmf_R8usBPXZDhNXUaVkZTwcBoLci2qcWQsOXADwbMxZW-3qS9UHgtl=s2048 "Calculadora de IMC - Bernardo e Pedro")
+![Imagem de editor de texto mostrando código de Calculadora de IMC - Bernardo e Pedro](https://lh4.googleusercontent.com/A-T4GUWVTp1c0--N9rrjJ_b2hkOI0jhwOTuxgrfWQLFew-n2pV5LmNh1r17VLX8NnjSJQNRMfQ3UMIpLKW1LffKCIwcG2llWOTmf_R8usBPXZDhNXUaVkZTwcBoLci2qcWQsOXADwbMxZW-3qS9UHgtl=s2048 "Calculadora de IMC - Bernardo e Pedro")
 
 <h4 style="text-align: justify">&emsp;Pedra Papel e Tesoura - Enzo & Rafael</h4>
 
-![alt text](https://lh4.googleusercontent.com/V5uv1T4CrSxunboOvmutlAjRyIj_HZTDCgTymWqxM1uH6TjmE5llB9pPST7xrXdi3YtEaEX_6f4xdCSaAmWMXe0xfOo45xmkiWP62edfMlgpaPrySifhryCI13pBgKJnnVrRNnTXmuhq8rZATsddSccx=s2048 "Pedra Papel e Tesoura - Enzo & Rafael")
+![Imagem de editor de texto mostrando código de Pedra Papel e Tesoura - Enzo & Rafael](https://lh4.googleusercontent.com/V5uv1T4CrSxunboOvmutlAjRyIj_HZTDCgTymWqxM1uH6TjmE5llB9pPST7xrXdi3YtEaEX_6f4xdCSaAmWMXe0xfOo45xmkiWP62edfMlgpaPrySifhryCI13pBgKJnnVrRNnTXmuhq8rZATsddSccx=s2048 "Pedra Papel e Tesoura - Enzo & Rafael")
 
 
 
