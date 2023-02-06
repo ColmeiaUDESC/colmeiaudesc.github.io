@@ -7,7 +7,7 @@ tags: eventos colmeia
 ---
 
 
-![alt text](/assets/aulaResgate5.jpg "Title")
+![alt text](/assets/img/aulaResgate5.jpg "Title")
 
 <p style="text-align: justify">&emsp;Foi a quinta aula de linguagem Python básico, ministrada por João Guilherme Vargas e Amyr Allan, e esquematizada por César Eduardo de Souza, bolsistas do projeto Colmeia e voluntários do projeto Resgate.</p>
 
