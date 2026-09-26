@@ -491,8 +491,6 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 }
 .favo-linha { display: flex; gap: var(--fresta); }
 .favo-linha + .favo-linha { margin-top: calc(var(--favo) * -0.2887 + var(--fresta) * 0.866); }
-/* fileira com a mesma paridade da de cima (ex.: 3 → 1): desloca meio favo para encaixar */
-.favo-linha-meia { transform: translateX(calc((var(--favo) + var(--fresta)) / -2)); }
 
 .favo {
   position: relative;
@@ -529,6 +527,11 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 .favo-rainha { background: #b34700; }
 .favo-rainha .favo-dentro { background: linear-gradient(160deg, #ffb347, #f07a12); color: var(--grafite); }
 .favo-rainha strong { color: #2a292b; }
+.favo-convite { display: block; background: color-mix(in srgb, var(--mel) 35%, transparent); text-decoration: none; }
+.favo-convite .favo-dentro { background: var(--bg); color: var(--texto-suave); }
+.favo-convite strong { color: var(--texto); }
+.favo-convite .favo-dentro svg { width: calc(var(--favo) * 0.22); height: calc(var(--favo) * 0.22); margin-bottom: 4px; color: var(--mel); }
+.favo-convite:hover { background: var(--mel); }
 
 .favo:hover .favo-dentro svg { animation: zumbir 0.35s ease-in-out infinite alternate; }
 @keyframes zumbir { to { transform: rotate(-8deg) translateY(-3px); } }
