@@ -63,6 +63,19 @@ Cada abelha pode ter um acessório: `ac-oculos`, `ac-laco`, `ac-fone`, `ac-bone`
 
 **Colmeia Linux.** Versões para download, instruções e roadmap ficam em `distro.html`.
 
+**Blog.** A página `blog.html` mostra os posts do Instagram [@colmeiaudesc](https://instagram.com/colmeiaudesc). Ninguém precisa editar nada à mão: o workflow `.github/workflows/instagram.yml` roda a cada 6 horas, executa `scripts/instagram.py`, salva os posts em `assets/instagram/posts.json` (com as imagens na mesma pasta) e faz o commit sozinho.
+
+Configuração (só uma vez, por quem administra o Instagram e o repositório):
+
+1. No app do Instagram, deixe o @colmeiaudesc como **conta profissional** (Configurações → Tipo de conta → Criador de conteúdo ou Empresa). É grátis.
+2. Em [developers.facebook.com](https://developers.facebook.com/apps), crie um app com o caso de uso **Instagram API** e, em *Configuração da API com login do Instagram*, adicione a conta @colmeiaudesc e clique em **Gerar token**. Se o app estiver em modo de desenvolvimento, a conta precisa estar em *Funções do app → Testadores do Instagram*.
+3. No repositório no GitHub: *Settings → Secrets and variables → Actions → New repository secret*, com o nome `IG_TOKEN` e o token como valor.
+4. Na aba *Actions*, abra **Posts do Instagram** e clique em **Run workflow** para buscar os posts pela primeira vez.
+
+O token vale 60 dias e o script o renova a cada execução. Se a renovação gerar um token diferente, ele só é salvo sozinho se existir também o secret `SECRETS_PAT`: um *fine-grained personal access token* com permissão **Secrets: Read and write** neste repositório. Sem ele, gere um token novo (passo 2) quando o workflow começar a falhar.
+
+Se o workflow falhar ao fazer o commit, confira em *Settings → Actions → General → Workflow permissions* se está marcado **Read and write permissions**.
+
 **Cores.** As cores da identidade visual estão no início do `assets/css/colmeia.css`: amarelo `#FFCD2C`, creme `#FFE4A5` e grafite `#414042`.
 
 ## Contribuindo

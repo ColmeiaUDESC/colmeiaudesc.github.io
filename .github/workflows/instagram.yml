@@ -1,0 +1,50 @@
+name: Posts do Instagram
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # a cada 6 horas
+  workflow_dispatch: # botão "Run workflow" na aba Actions
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Baixar posts
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python3 scripts/instagram.py
+
+      - name: Guardar token renovado
+        env:
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+        run: |
+          if [ -f "$RUNNER_TEMP/ig_token" ] && [ -n "$GH_TOKEN" ]; then
+            gh secret set IG_TOKEN < "$RUNNER_TEMP/ig_token"
+            echo "Token renovado salvo no secret IG_TOKEN."
+          fi
+
+      - name: Commit e publicação
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add assets/instagram
+          if git diff --cached --quiet; then
+            echo "Sem mudanças."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Atualiza posts do Instagram"
+          git push
+          # commits feitos pelo GITHUB_TOKEN podem não disparar o GitHub Pages sozinhos
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" > /dev/null || true
