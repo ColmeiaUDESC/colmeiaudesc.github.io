@@ -491,6 +491,8 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 }
 .favo-linha { display: flex; gap: var(--fresta); }
 .favo-linha + .favo-linha { margin-top: calc(var(--favo) * -0.2887 + var(--fresta) * 0.866); }
+/* fileira com a mesma paridade da de cima (ex.: 3 → 1): desloca meio favo para encaixar */
+.favo-linha-meia { transform: translateX(calc((var(--favo) + var(--fresta)) / -2)); }
 
 .favo {
   position: relative;
