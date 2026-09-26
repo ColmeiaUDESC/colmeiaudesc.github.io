@@ -561,3 +561,19 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 .favo-voluntario .favo-dentro svg, .favo-rainha .favo-dentro svg { filter: drop-shadow(0 0 1px rgba(255, 241, 214, 0.9)) drop-shadow(0 0 3px rgba(255, 205, 44, 0.25)); }
 
 img, svg { -webkit-user-drag: none; user-select: none; -webkit-user-select: none; }
+
+#sobre .grade { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+.foto-vazia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--mel-escuro);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background-color: var(--card);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='97' viewBox='0 0 56 97'%3E%3Cpath d='M28 0 56 16v32L28 64 0 48V16Zm0 64v33M0 48l-28 16M56 48l28 16' fill='none' stroke='%23ffcd2c' stroke-opacity='.18' stroke-width='2'/%3E%3C/svg%3E");
+}
+.foto-vazia svg { width: 56px; height: 56px; opacity: 0.85; }
