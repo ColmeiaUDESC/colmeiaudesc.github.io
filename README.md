@@ -6,7 +6,7 @@ Acesse: https://colmeiaudesc.github.io
 
 ## Sobre o Colmeia
 
-O Colmeia existe desde 2002 e leva conhecimento sobre software e hardware livre para escolas, universidades e para a comunidade. O grupo foi criado pelos professores Kariston Pereira e Claudio César de Sá e hoje é coordenado pelo professor Gilmário Barbosa dos Santos.
+O Colmeia existe desde 2002 e leva conhecimento sobre software e hardware livre para escolas, universidades e para a comunidade. O grupo foi criado pelos professores Kariston Pereira e Claudio César de Sá e hoje é coordenado pelos professores Gilmário Barbosa dos Santos e Rafael Kingeski.
 
 Entre as atividades do grupo estão:
 
