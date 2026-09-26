@@ -101,6 +101,27 @@ a { color: var(--mel-escuro); }
 }
 .menu a:hover, .menu a.ativo, .menu a[aria-current="page"] { background: var(--bg-alt); color: var(--mel-escuro); }
 
+.menu { margin-left: auto; }
+.redes {
+  display: flex;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 12px;
+  border-left: 1px solid var(--borda);
+}
+.redes a {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  color: var(--texto);
+  transition: color 0.15s, background 0.15s;
+}
+.redes a:hover { background: var(--bg-alt); color: var(--mel-escuro); }
+.redes svg { width: 19px; height: 19px; }
+
 .menu-botao {
   display: none;
   background: none;
@@ -113,7 +134,8 @@ a { color: var(--mel-escuro); }
 }
 
 @media (max-width: 760px) {
-  .menu-botao { display: block; }
+  .menu-botao { display: block; order: 1; }
+  .redes { margin-left: auto; border-left: 0; padding-left: 0; }
   .menu {
     display: none;
     position: absolute;
@@ -202,20 +224,6 @@ a { color: var(--mel-escuro); }
 .botao.primario { background: var(--mel); color: var(--grafite); }
 .botao.primario:hover { background: #f2b800; border-color: #f2b800; }
 .botao.secundario { background: transparent; color: var(--texto); }
-
-.redes { display: flex; gap: 10px; list-style: none; margin: 22px 0 0; padding: 0; }
-.redes a {
-  display: grid;
-  place-items: center;
-  width: 40px;
-  height: 46px;
-  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  background: var(--mel);
-  color: var(--grafite);
-  transition: transform 0.2s;
-}
-.redes a:hover { transform: translateY(-3px); }
-.redes svg { width: 19px; height: 19px; }
 
 section { padding-block: 72px; }
 section.alt { background: var(--bg-alt); }
@@ -446,8 +454,6 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 
   .botoes { flex-direction: column; align-items: center; }
   .botoes .botao { width: 100%; max-width: 320px; justify-content: center; }
-  .redes { justify-content: center; }
-
   .card { text-align: center; }
   .card .icone { margin-inline: auto; }
 
