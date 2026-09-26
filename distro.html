@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colmeia Linux | Distro Linux do Colmeia UDESC</title>
+  <meta name="description" content="Colmeia Linux: distribuição Linux open source baseada em Debian, feita pelo grupo de extensão Colmeia da UDESC.">
+  <link rel="icon" href="assets/img/colmeia-icone.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:wght@600;700;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/colmeia.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container">
+      <a class="marca" href="index.html">
+        <img class="logo-escuro" src="assets/img/colmeia-logo.png" alt="Colmeia, Software e Hardware Livre" width="159" height="48">
+        <img class="logo-claro" src="assets/img/colmeia-logo-claro.png" alt="Colmeia, Software e Hardware Livre" width="159" height="48">
+      </a>
+      <button class="menu-botao" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="menu">
+        <li><a href="index.html#sobre">Sobre</a></li>
+        <li><a href="distro.html" aria-current="page">Colmeia Linux</a></li>
+        <li><a href="index.html#projetos">Projetos</a></li>
+        <li><a href="index.html#membros">Membros</a></li>
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-sem-mascote">
+      <img class="favo-fundo" src="assets/img/favo-mel.svg" alt="" aria-hidden="true">
+      <div class="container">
+        <span class="selo">Em desenvolvimento · versão alfa</span>
+        <h1>Colmeia <em>Linux</em></h1>
+        <p class="lead">
+          A distribuição Linux do Colmeia UDESC. Baseada em Debian, leve, em português e com tudo o que
+          um estudante precisa para aprender programação usando apenas software livre.
+        </p>
+        <div class="botoes">
+          <a class="botao primario" href="#download">Baixar ISO</a>
+          <a class="botao secundario" href="#testar">Testar numa VM</a>
+          <a class="botao secundario" href="https://github.com/colmeiaUDESC/colmeia-linux" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>Código-fonte</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <div class="titulo-secao revelar">
+          <span class="sobretitulo">Por que Colmeia Linux</span>
+          <h2>Feita para ensinar e para usar</h2>
+        </div>
+        <div class="grade">
+          <div class="card revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg></div>
+            <h3>Base Debian</h3>
+            <p>Construída sobre o Debian estável: confiável, seguro e com acesso a mais de 60 mil pacotes via APT.</p>
+          </div>
+          <div class="card revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <h3>Pronta para programar</h3>
+            <p>Python, GCC, Git, editores e ferramentas dos nossos minicursos já vêm instalados.</p>
+          </div>
+          <div class="card revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20"/><path d="M12 2a15 15 0 0 0 0 20"/></svg></div>
+            <h3>Em português</h3>
+            <p>Idioma, teclado ABNT2 e fuso horário configurados de fábrica.</p>
+          </div>
+          <div class="card revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <h3>Live ISO</h3>
+            <p>Dê boot pelo pendrive e use sem instalar. Gostou? Instale direto do modo live.</p>
+          </div>
+          <div class="card revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg></div>
+            <h3>100% open source</h3>
+            <p>Todos os scripts de build estão no GitHub. Qualquer pessoa pode gerar a mesma ISO.</p>
+          </div>
+          <div class="card revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg></div>
+            <h3>Para laboratórios</h3>
+            <p>Pensada para rodar bem em máquinas mais antigas de escolas e laboratórios.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download">
+      <div class="container">
+        <div class="titulo-secao revelar">
+          <span class="sobretitulo">Download</span>
+          <h2>Baixe a ISO</h2>
+          <p>As imagens ficam na página de <em>Releases</em> do GitHub. Ainda não há versão estável: as builds alfa são para testes.</p>
+        </div>
+        <div class="tabela-wrap revelar">
+          <table>
+            <thead>
+              <tr><th>Versão</th><th>Base</th><th>Arquitetura</th><th>Status</th><th></th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0.1 alfa</td>
+                <td>Debian 13 “Trixie”</td>
+                <td>amd64</td>
+                <td>Em testes</td>
+                <td><a href="https://github.com/colmeiaUDESC/colmeia-linux/releases" target="_blank" rel="noopener">Releases →</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="revelar" style="color:var(--texto-suave);margin-top:16px">
+          Requisitos mínimos sugeridos: processador 64 bits, 2 GB de RAM, 20 GB de disco.
+        </p>
+      </div>
+    </section>
+
+    <section id="testar" class="alt">
+      <div class="container">
+        <div class="titulo-secao revelar">
+          <span class="sobretitulo">Testar</span>
+          <h2>Como testar numa máquina virtual</h2>
+          <p>A forma mais segura de experimentar a Colmeia Linux: nada muda no seu computador.</p>
+        </div>
+
+        <div class="grade">
+          <div class="card revelar">
+            <div class="icone">1</div>
+            <h3>VirtualBox (Windows, Linux, macOS)</h3>
+            <p>Instale o <a href="https://www.virtualbox.org/" target="_blank" rel="noopener">VirtualBox</a>, crie uma VM “Linux → Debian (64-bit)” com 4 GB de RAM e 20 GB de disco, e em <em>Armazenamento</em> selecione a ISO no drive óptico. Dê play.</p>
+          </div>
+          <div class="card revelar">
+            <div class="icone">2</div>
+            <h3>GNOME Boxes / virt-manager (Linux)</h3>
+            <p>No Linux, use o <strong>GNOME Boxes</strong> (mais simples) ou o <strong>virt-manager</strong>: “Nova VM → Mídia de instalação local” e aponte para a ISO.</p>
+          </div>
+          <div class="card revelar">
+            <div class="icone">3</div>
+            <h3>QEMU direto no terminal</h3>
+            <p>Para quem desenvolve a distro, é o jeito mais rápido de testar cada build nova (veja o comando abaixo).</p>
+          </div>
+        </div>
+
+        <div class="terminal revelar" style="margin-top:24px">
+          <div class="barra"><i></i><i></i><i></i></div>
+<pre><span class="comentario"># boot da ISO em modo live (BIOS)</span>
+<span class="prompt">$</span> qemu-system-x86_64 -enable-kvm -m 4G -smp 2 \
+    -cdrom colmeia-linux-amd64.hybrid.iso
+
+<span class="comentario"># testar em modo UEFI (precisa do pacote ovmf)</span>
+<span class="prompt">$</span> qemu-system-x86_64 -enable-kvm -m 4G -smp 2 \
+    -bios /usr/share/ovmf/OVMF.fd \
+    -cdrom colmeia-linux-amd64.hybrid.iso
+
+<span class="comentario"># testar a instalação num disco virtual</span>
+<span class="prompt">$</span> qemu-img create -f qcow2 disco.qcow2 20G
+<span class="prompt">$</span> qemu-system-x86_64 -enable-kvm -m 4G -smp 2 \
+    -hda disco.qcow2 -cdrom colmeia-linux-amd64.hybrid.iso -boot d</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="build">
+      <div class="container distro-destaque">
+        <div class="revelar">
+          <div class="titulo-secao" style="margin-bottom:0">
+            <span class="sobretitulo">Contribuir</span>
+            <h2>Gere a ISO você mesmo</h2>
+            <p>
+              A Colmeia Linux é construída com o <strong>live-build</strong>, a ferramenta oficial do Debian para criar
+              imagens live. Você precisa de um sistema Debian (ou uma VM com Debian).
+            </p>
+          </div>
+          <ul class="lista-check">
+            <li>Pacotes extras ficam em <code>config/package-lists/</code></li>
+            <li>Arquivos e configurações do sistema em <code>config/includes.chroot/</code></li>
+            <li>Scripts de personalização em <code>config/hooks/</code></li>
+            <li>Abra uma <em>issue</em> ou <em>pull request</em> no GitHub!</li>
+          </ul>
+        </div>
+        <div class="terminal revelar">
+          <div class="barra"><i></i><i></i><i></i></div>
+<pre><span class="prompt">$</span> sudo apt install live-build git
+<span class="prompt">$</span> git clone https://github.com/colmeiaUDESC/colmeia-linux
+<span class="prompt">$</span> cd colmeia-linux
+<span class="prompt">$</span> sudo lb clean
+<span class="prompt">$</span> sudo lb config
+<span class="prompt">$</span> sudo lb build
+
+<span class="comentario"># a ISO aparece na pasta atual:</span>
+<span class="comentario"># live-image-amd64.hybrid.iso</span></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <div class="titulo-secao revelar">
+          <span class="sobretitulo">Roadmap</span>
+          <h2>Próximos passos</h2>
+        </div>
+        <ol class="linha-tempo revelar">
+          <li><strong>Fase 1:</strong> ISO live mínima com base Debian e identidade visual da Colmeia</li>
+          <li><strong>Fase 2:</strong> Pacote de ferramentas de ensino e programação dos minicursos</li>
+          <li><strong>Fase 3:</strong> Instalador gráfico (Calamares) e testes em máquinas reais dos laboratórios</li>
+          <li><strong>Fase 4:</strong> Primeira versão estável e lançamento no FLISoL</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <section class="realizacao" aria-label="Realização">
+    <div class="container">
+      <span>Realização</span>
+      <a href="https://www.udesc.br/cct" target="_blank" rel="noopener">
+        <img class="udesc-escuro" src="assets/img/udesc-cct.png" alt="UDESC Joinville, Centro de Ciências Tecnológicas" width="598" height="105" loading="lazy">
+        <img class="udesc-claro" src="assets/img/udesc-cct-claro.png" alt="UDESC Joinville, Centro de Ciências Tecnológicas" width="598" height="105" loading="lazy">
+      </a>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="colunas">
+        <div>
+          <img class="logo-rodape" src="assets/img/colmeia-logo-claro.png" alt="Colmeia" width="146" height="44">
+          <p>Grupo de extensão Socialização em Software Livre e Hardware Livre, do Centro de Ciências Tecnológicas da UDESC Joinville.</p>
+        </div>
+        <div>
+          <h4>Colmeia Linux</h4>
+          <ul>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#testar">Testar numa VM</a></li>
+            <li><a href="#build">Gerar a ISO</a></li>
+            <li><a href="https://github.com/colmeiaUDESC/colmeia-linux" target="_blank" rel="noopener">Código-fonte</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <ul>
+            <li>colmeiacct@gmail.com</li>
+            <li><a href="https://github.com/colmeiaUDESC" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://instagram.com/colmeiaudesc" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy">© <span id="ano">2026</span> Colmeia UDESC · Debian é marca registrada de Software in the Public Interest, Inc. · A Colmeia Linux não é afiliada ao Projeto Debian.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/colmeia.js"></script>
+</body>
+</html>
