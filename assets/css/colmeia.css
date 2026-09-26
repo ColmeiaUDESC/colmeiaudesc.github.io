@@ -240,8 +240,11 @@ section.alt { background: var(--bg-alt); }
   transition: transform 0.2s;
 }
 .card:hover .icone { transform: rotate(30deg); }
-.card:hover .icone svg { transform: rotate(-30deg); }
-.card .icone svg { transition: transform 0.2s; }
+.card:hover .icone > * { transform: rotate(-30deg); }
+.card .icone > * { transition: transform 0.2s; }
+.card .icone > span { display: inline-block; }
+/* inline-block não herda o sublinhado do link (o respiro do glifo "@" parecia um ponto) */
+.arroba { display: inline-block; }
 .card .icone svg { width: 22px; height: 22px; }
 .card .icone { font-family: "Poppins", sans-serif; font-weight: 800; }
 .card a.mais { display: inline-block; margin-top: 12px; font-weight: 700; text-decoration: none; }
@@ -500,9 +503,9 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 .favo-bolsista { background: #e0a100; }
 .favo-bolsista .favo-dentro { background: linear-gradient(160deg, #ffe066, #f7b900); color: var(--grafite); }
 .favo-voluntario .favo-dentro { background: var(--card); color: var(--texto); }
-.favo-rainha { background: var(--mel); }
-.favo-rainha .favo-dentro { background: linear-gradient(160deg, #545356, #2a292b); color: #f5f1e6; }
-.favo-rainha strong { color: var(--mel); }
+.favo-rainha { background: #b34700; }
+.favo-rainha .favo-dentro { background: linear-gradient(160deg, #ffb347, #f07a12); color: var(--grafite); }
+.favo-rainha strong { color: #2a292b; }
 
 .favo:hover .favo-dentro svg { animation: zumbir 0.35s ease-in-out infinite alternate; }
 @keyframes zumbir { to { transform: rotate(-8deg) translateY(-3px); } }
@@ -535,7 +538,8 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 }
 .leg-bolsista::after { background: linear-gradient(160deg, #ffe066, #f7b900); }
 .leg-voluntario::after { background: var(--card); }
-.leg-rainha::after { background: #3a393c; }
+.legenda-colmeia .leg-rainha { background: #b34700; }
+.leg-rainha::after { background: linear-gradient(160deg, #ffb347, #f07a12); }
 
 #membros .titulo-secao { text-align: center; }
 #membros .titulo-secao p { margin-inline: auto; }
@@ -558,7 +562,7 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
   .favo-bolsista .favo-dentro span, .favo-voluntario .favo-dentro span { display: none; }
 }
 
-.favo-voluntario .favo-dentro svg, .favo-rainha .favo-dentro svg { filter: drop-shadow(0 0 1px rgba(255, 241, 214, 0.9)) drop-shadow(0 0 3px rgba(255, 205, 44, 0.25)); }
+.favo-voluntario .favo-dentro svg { filter: drop-shadow(0 0 1px rgba(255, 241, 214, 0.9)) drop-shadow(0 0 3px rgba(255, 205, 44, 0.25)); }
 
 img, svg { -webkit-user-drag: none; user-select: none; -webkit-user-select: none; }
 
