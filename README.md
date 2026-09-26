@@ -52,9 +52,10 @@ Depois acesse http://localhost:8000.
 
 - `favo-bolsista`: favo cheio de mel, com a etiqueta "Bolsista";
 - `favo-voluntario`: favo vazado, com a etiqueta "Voluntário";
-- `favo-rainha`: coordenação.
+- `favo-rainha`: coordenação;
+- `favo-convite`: favo "Você aqui?" que leva ao contato. Serve para completar a colmeia quando o número de membros não fecha as fileiras (pode remover quando entrar mais alguém).
 
-Os favos ficam em fileiras (`favo-linha`). Fileiras vizinhas precisam ter um favo de diferença (por exemplo 2, 3, 2, 1) para os hexágonos se encaixarem. Se não der (ex.: uma fileira de 1 embaixo de uma de 3), adicione `favo-linha-meia` na fileira de baixo para deslocá-la meio favo.
+Os favos ficam em fileiras (`favo-linha`). Fileiras vizinhas precisam ter um favo de diferença (por exemplo 2, 3, 2, 1) para os hexágonos se encaixarem.
 
 Cada abelha pode ter um acessório: `ac-oculos`, `ac-laco`, `ac-fone`, `ac-bone`, `ac-gorro`, `ac-notebook`, `ac-cafe`, `ac-escuros`, `ac-gravata` ou `ac-coroa`. Basta trocar o `href` do segundo `<use>` dentro do favo.
 
