@@ -1,41 +1,83 @@
-# Site do Colmeia UDESC
+# Colmeia UDESC
 
-Site do grupo de extensão **Socialização em Software Livre e Hardware Livre (Colmeia)** (UDESC/CCT), incluindo a página da **Colmeia Linux**, nossa distro baseada em Debian.
+Site oficial do **Colmeia**, grupo de extensão *Socialização em Software Livre e Hardware Livre* do Centro de Ciências Tecnológicas (CCT) da UDESC, em Joinville.
 
-HTML, CSS e JavaScript puros, sem build, sem dependências. Funciona direto no GitHub Pages.
+Acesse: https://colmeiaudesc.github.io
 
-## Estrutura
+## Sobre o Colmeia
+
+O Colmeia existe desde 2002 e leva conhecimento sobre software e hardware livre para escolas, universidades e para a comunidade. O grupo foi criado pelos professores Kariston Pereira e Claudio César de Sá e hoje é coordenado pelo professor Gilmário Barbosa dos Santos.
+
+Entre as atividades do grupo estão:
+
+- aulas e minicursos de programação com ferramentas livres, como o Projeto Resgate;
+- caravanas para eventos como a Latinoware;
+- organização do FLISoL, o Festival Latino-americano de Instalação de Software Livre;
+- produção de vídeos e materiais abertos no YouTube;
+- desenvolvimento da **Colmeia Linux**, uma distribuição baseada em Debian para estudantes que estão começando no Linux.
+
+Para participar não é obrigatório cursar Ciência da Computação.
+
+## O site
+
+O site tem duas páginas:
+
+- **Página inicial** (`index.html`): quem somos, projetos, membros e contato.
+- **Colmeia Linux** (`distro.html`): apresentação da distro, download, como testar em máquina virtual, como gerar a ISO e próximos passos.
+
+Foi feito só com HTML, CSS e JavaScript, sem etapas de build e sem dependências. O GitHub Pages publica os arquivos direto da branch principal.
 
 ```
-index.html          página principal (sobre, projetos, membros, contato)
-distro.html         página da Colmeia Linux (download, testar em VM, build, roadmap)
-assets/css/colmeia.css
-assets/js/colmeia.js menu mobile, avatares dos membros, animações
-assets/img/          logos, mascote e foto do grupo (extraídos da identidade visual oficial)
+index.html
+distro.html
+assets/
+  css/colmeia.css
+  js/colmeia.js
+  img/            logos, mascote, foto do grupo e fundo de favos
 ```
 
-## Rodar localmente
+## Ver o site no seu computador
 
-Abra o `index.html` no navegador, ou sirva a pasta:
+Abra o `index.html` no navegador. Se preferir servir a pasta:
 
-```bash
+```sh
 python -m http.server 8000
-# acesse http://localhost:8000
 ```
 
-## Editar
+Depois acesse http://localhost:8000.
 
-- **Membros:** em `index.html`, seção `#membros`, adicione/remova blocos `<div class="membro">`. As iniciais e a contagem são geradas sozinhas.
-- **Projetos:** seção `#projetos`, copie um `<div class="card">`.
-- **Versões da distro:** tabela em `distro.html#download`.
-- **Cores:** variáveis no topo de `assets/css/colmeia.css`.
+## Como editar
 
-## Publicar no GitHub Pages
+**Membros.** Ficam na seção `#membros` do `index.html`, organizados como uma colmeia. Cada membro é um bloco `favo` com uma abelha, o nome e o curso:
 
-1. Suba estes arquivos na raiz do repositório.
-2. *Settings → Pages → Build and deployment → Deploy from a branch → `main` / `(root)`*.
-3. O site fica em `https://<usuario>.github.io/<repositorio>/`.
+- `favo-bolsista`: favo cheio de mel, com a etiqueta "Bolsista";
+- `favo-voluntario`: favo vazado, com a etiqueta "Voluntário";
+- `favo-rainha`: coordenação.
+
+Os favos ficam em fileiras (`favo-linha`). Fileiras vizinhas precisam ter um favo de diferença (por exemplo 2, 3, 2, 1) para os hexágonos se encaixarem.
+
+Cada abelha pode ter um acessório: `ac-oculos`, `ac-laco`, `ac-fone`, `ac-bone`, `ac-gorro`, `ac-notebook`, `ac-cafe` ou `ac-coroa`. Basta trocar o `href` do segundo `<use>` dentro do favo.
+
+**Projetos.** Seção `#projetos` do `index.html`. Para adicionar um projeto, copie um bloco `card`.
+
+**Colmeia Linux.** Versões para download, instruções e roadmap ficam em `distro.html`.
+
+**Cores.** As cores da identidade visual estão no início do `assets/css/colmeia.css`: amarelo `#FFCD2C`, creme `#FFE4A5` e grafite `#414042`.
+
+## Contribuindo
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para a sua alteração.
+3. Confira o resultado no navegador, no computador e no celular.
+4. Abra um pull request explicando o que mudou.
+
+## Contato
+
+- E-mail: colmeiacct@gmail.com
+- GitHub: [@colmeiaUDESC](https://github.com/colmeiaUDESC)
+- Instagram: [@colmeiaudesc](https://instagram.com/colmeiaudesc)
+- YouTube: [Canal do Colmeia](https://www.youtube.com/channel/UC51KrWL94AfGxI_4l_E7uzA)
 
 ## Licença
 
-Código sob [MIT](LICENSE). Conteúdo textual sob CC BY-SA 4.0.
+Veja o arquivo `LICENSE`. Os logos da UDESC e do Colmeia pertencem às respectivas instituições.
