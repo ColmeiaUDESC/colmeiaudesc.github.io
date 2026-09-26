@@ -99,7 +99,7 @@ a { color: var(--mel-escuro); }
   letter-spacing: 0.01em;
   transition: color 0.15s, background 0.15s;
 }
-.menu a:hover, .menu a[aria-current="page"] { background: var(--bg-alt); color: var(--mel-escuro); }
+.menu a:hover, .menu a.ativo, .menu a[aria-current="page"] { background: var(--bg-alt); color: var(--mel-escuro); }
 
 .menu-botao {
   display: none;
