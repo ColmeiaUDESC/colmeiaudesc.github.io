@@ -292,6 +292,8 @@ section.alt { background: var(--bg-alt); }
 .terminal .barra i { width: 11px; height: 11px; border-radius: 50%; background: #5a4a2a; }
 .terminal .barra i:first-child { background: var(--mel); }
 .terminal pre { margin: 0; padding: 18px; overflow-x: auto; }
+:not(pre) > code { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.86em; padding: 1px 6px; border-radius: 6px; background: var(--bg-alt); border: 1px solid var(--borda); overflow-wrap: anywhere; }
+.card :not(pre) > code { background: var(--bg); }
 .terminal .prompt { color: var(--mel); }
 .terminal .comentario { color: #8f8266; }
 
