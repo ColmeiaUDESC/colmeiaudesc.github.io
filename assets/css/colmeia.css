@@ -100,6 +100,15 @@ a { color: var(--mel-escuro); }
   transition: color 0.15s, background 0.15s;
 }
 .menu a:hover, .menu a.ativo, .menu a[aria-current="page"] { background: var(--bg-alt); color: var(--mel-escuro); }
+/* Colmeia Linux: página própria e projeto principal, por isso vira botão */
+.menu .menu-destaque { margin-left: 8px; padding: 6px 14px; border: 2px solid var(--mel); color: var(--texto); font-weight: 600; }
+.menu .menu-destaque:hover, .menu .menu-destaque[aria-current="page"] { background: var(--mel); color: var(--grafite); }
+@media (min-width: 761px) and (max-width: 1000px) {
+  .menu a { padding: 8px 8px; font-size: 0.86rem; }
+  .menu .menu-destaque { margin-left: 4px; padding: 6px 10px; }
+  .redes { padding-left: 6px; }
+  .redes a { width: 32px; }
+}
 
 .menu { margin-left: auto; }
 .redes {
@@ -148,6 +157,7 @@ a { color: var(--mel-escuro); }
     border-bottom: 1px solid var(--borda);
   }
   .menu.aberto { display: flex; }
+  .menu .menu-destaque { margin: 8px 0 0; }
 }
 
 .hero {

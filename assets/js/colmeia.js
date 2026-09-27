@@ -23,12 +23,13 @@ const observador = new IntersectionObserver(
 document.querySelectorAll(".revelar").forEach((el) => observador.observe(el));
 
 const itensMenu = [];
-document.querySelectorAll(".menu a").forEach((link) => {
+document.querySelectorAll(".menu a:not(.menu-destaque)").forEach((link) => {
   const href = link.getAttribute("href");
-  const id = href.startsWith("#") ? href.slice(1) : href === "distro.html" ? "distro" : null;
-  const secao = id && document.getElementById(id);
+  const secao = href.startsWith("#") && document.getElementById(href.slice(1));
   if (secao) itensMenu.push({ link, secao });
 });
+// a ordem do menu não precisa ser a ordem das seções na página
+itensMenu.sort((a, b) => (a.secao.compareDocumentPosition(b.secao) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1));
 
 if (itensMenu.length) {
   let agendado = false;
