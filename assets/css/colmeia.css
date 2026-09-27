@@ -17,19 +17,18 @@
   color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --mel-escuro: #ffcd2c;
-    --bg: #1d1c1e;
-    --bg-alt: #262528;
-    --card: #2e2d30;
-    --texto: #f5f1e6;
-    --texto-suave: #bdb8ab;
-    --borda: #444246;
-    --codigo-bg: #141315;
-    --sombra: 0 6px 24px rgba(0, 0, 0, 0.35);
-    color-scheme: dark;
-  }
+/* tema escuro: data-tema é definido por assets/js/tema.js antes da página aparecer */
+:root[data-tema="escuro"] {
+  --mel-escuro: #ffcd2c;
+  --bg: #1d1c1e;
+  --bg-alt: #262528;
+  --card: #2e2d30;
+  --texto: #f5f1e6;
+  --texto-suave: #bdb8ab;
+  --borda: #444246;
+  --codigo-bg: #141315;
+  --sombra: 0 6px 24px rgba(0, 0, 0, 0.35);
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -47,7 +46,7 @@ body {
 img { max-width: 100%; height: auto; }
 
 a { color: var(--mel-escuro); }
-@media (prefers-color-scheme: dark) { a { color: var(--mel); } }
+:where([data-tema="escuro"]) a { color: var(--mel); }
 
 .container {
   width: 100%;
@@ -81,10 +80,8 @@ a { color: var(--mel-escuro); }
 }
 .marca img { height: 36px; width: auto; display: block; }
 .marca .logo-claro { display: none; }
-@media (prefers-color-scheme: dark) {
-  .marca .logo-escuro { display: none; }
-  .marca .logo-claro { display: block; }
-}
+[data-tema="escuro"] .marca .logo-escuro { display: none; }
+[data-tema="escuro"] .marca .logo-claro { display: block; }
 
 .menu { display: flex; gap: 4px; list-style: none; margin: 0; padding: 0; }
 .menu a {
@@ -130,6 +127,25 @@ a { color: var(--mel-escuro); }
 }
 .redes a:hover { background: var(--bg-alt); color: var(--mel-escuro); }
 .redes svg { width: 19px; height: 19px; }
+
+.tema-botao {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: var(--texto);
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+.tema-botao:hover { background: var(--bg-alt); color: var(--mel-escuro); }
+.tema-botao svg { width: 19px; height: 19px; }
+/* mostra o tema para o qual o botão vai trocar */
+.tema-botao .icone-sol, [data-tema="escuro"] .tema-botao .icone-lua { display: none; }
+[data-tema="escuro"] .tema-botao .icone-sol { display: block; }
 
 .menu-botao {
   display: none;
@@ -437,10 +453,8 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 .realizacao a { display: block; }
 .realizacao img { display: block; height: 56px; width: auto; }
 .realizacao .udesc-claro { display: none; }
-@media (prefers-color-scheme: dark) {
-  .realizacao .udesc-escuro { display: none; }
-  .realizacao .udesc-claro { display: block; }
-}
+[data-tema="escuro"] .realizacao .udesc-escuro { display: none; }
+[data-tema="escuro"] .realizacao .udesc-claro { display: block; }
 @media (max-width: 480px) { .realizacao img { height: 44px; } }
 
 .revelar { opacity: 0; transform: translateY(18px); transition: opacity 0.6s, transform 0.6s; }

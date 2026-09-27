@@ -54,6 +54,30 @@ if (itensMenu.length) {
   marcarSecaoAtual();
 }
 
+// botão ☀/☾ (o tema inicial é definido por tema.js)
+const raiz = document.documentElement;
+const botaoTema = document.querySelector(".tema-botao");
+const temaSistema = window.matchMedia("(prefers-color-scheme: dark)");
+const aplicarTema = (tema) => {
+  raiz.setAttribute("data-tema", tema);
+  if (botaoTema) botaoTema.setAttribute("aria-label", tema === "escuro" ? "Mudar para o modo claro" : "Mudar para o modo escuro");
+};
+const temaSalvo = () => {
+  try { return localStorage.getItem("tema"); } catch (e) { return null; }
+};
+aplicarTema(raiz.getAttribute("data-tema") || (temaSistema.matches ? "escuro" : "claro"));
+if (botaoTema) {
+  botaoTema.addEventListener("click", () => {
+    const novo = raiz.getAttribute("data-tema") === "escuro" ? "claro" : "escuro";
+    aplicarTema(novo);
+    try { localStorage.setItem("tema", novo); } catch (e) {}
+  });
+}
+// quem nunca clicou no botão continua acompanhando o sistema
+temaSistema.addEventListener("change", (e) => {
+  if (!temaSalvo()) aplicarTema(e.matches ? "escuro" : "claro");
+});
+
 const ano = document.getElementById("ano");
 if (ano) ano.textContent = new Date().getFullYear();
 
