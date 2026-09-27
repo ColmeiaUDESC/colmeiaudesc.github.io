@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:wght@600;700;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/colmeia.css?v=7">
+  <link rel="stylesheet" href="assets/css/colmeia.css?v=8">
 </head>
 <body>
 
@@ -49,7 +49,7 @@
         <div class="botoes">
           <a class="botao primario" href="#download">Baixar ISO</a>
           <a class="botao secundario" href="#testar">Testar numa VM</a>
-          <a class="botao secundario" href="https://github.com/colmeiaUDESC/colmeia-linux" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>Código-fonte</a>
+          <a class="botao secundario" href="https://github.com/ColmeiaUDESC/colmeia-distro" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>Código-fonte</a>
         </div>
       </div>
     </section>
@@ -113,7 +113,7 @@
                 <td>Debian 13 “Trixie”</td>
                 <td>amd64</td>
                 <td>Em testes</td>
-                <td><a href="https://github.com/colmeiaUDESC/colmeia-linux/releases" target="_blank" rel="noopener">Releases →</a></td>
+                <td><a href="https://github.com/ColmeiaUDESC/colmeia-distro/releases" target="_blank" rel="noopener">Releases →</a></td>
               </tr>
             </tbody>
           </table>
@@ -190,8 +190,8 @@
         <div class="terminal revelar">
           <div class="barra"><i></i><i></i><i></i></div>
 <pre><span class="prompt">$</span> sudo apt install live-build git
-<span class="prompt">$</span> git clone https://github.com/colmeiaUDESC/colmeia-linux
-<span class="prompt">$</span> cd colmeia-linux
+<span class="prompt">$</span> git clone https://github.com/ColmeiaUDESC/colmeia-distro
+<span class="prompt">$</span> cd colmeia-distro
 <span class="prompt">$</span> sudo lb clean
 <span class="prompt">$</span> sudo lb config
 <span class="prompt">$</span> sudo lb build
@@ -202,7 +202,72 @@
       </div>
     </section>
 
-    <section class="alt">
+    <section id="repositorios" class="alt">
+      <div class="container">
+        <div class="titulo-secao revelar">
+          <span class="sobretitulo">Repositórios</span>
+          <h2>Onde a Colmeia Linux mora</h2>
+          <p>Todo o código e todos os pacotes são abertos e ficam no GitHub do Colmeia.</p>
+        </div>
+        <div class="grade">
+          <div class="card revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <h3>colmeia-distro</h3>
+            <p>Código-fonte da distribuição: a base Debian feita para quem está começando no mundo open source.</p>
+            <a class="mais" href="https://github.com/ColmeiaUDESC/colmeia-distro" target="_blank" rel="noopener">Ver no GitHub →</a>
+          </div>
+          <div class="card revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5"/><path d="M12 13v8"/></svg></div>
+            <h3>colmeia-apt</h3>
+            <p>Repositório APT oficial com os pacotes <code>.deb</code> da Colmeia. Quem instalou a Colmeia Linux já recebe as atualizações por ele com <code>apt upgrade</code> ou pelo Discover.</p>
+            <a class="mais" href="https://github.com/ColmeiaUDESC/colmeia-apt" target="_blank" rel="noopener">Ver no GitHub →</a>
+          </div>
+        </div>
+
+        <h3 class="revelar" style="margin:40px 0 12px">Pacotes do repositório APT</h3>
+        <div class="tabela-wrap revelar">
+          <table>
+            <thead>
+              <tr><th>Pacote</th><th>O que é</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>colmeia-base</code></td><td>Identidade do sistema (nome, versão, repositórios)</td></tr>
+              <tr><td><code>colmeia-artwork</code></td><td>Logos, papéis de parede, cores, telas de boot e login</td></tr>
+              <tr><td><code>colmeia-desktop</code></td><td>Painel e menu no estilo do Windows 11, Boas-vindas e configurações padrão</td></tr>
+              <tr><td><code>libplasma6</code>, <code>libplasmaquick6</code>, <code>plasma-desktoptheme</code></td><td>libplasma do Debian recompilada com os ajustes da Colmeia</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="revelar" style="color:var(--texto-suave);margin-top:12px">Todos para Debian 13 “Trixie”, <code>amd64</code>.</p>
+
+        <h3 class="revelar" style="margin:40px 0 8px">Usar num Debian 13 que já existe (opcional)</h3>
+        <p class="revelar" style="color:var(--texto-suave);margin:0 0 16px">
+          Os pacotes mudam a identidade e a área de trabalho do sistema: teste numa máquina virtual.
+          Os índices são assinados pela chave <code>90E8 6E1B ECCC 1581 7242 F5F6 4769 07E4 45CF 5103</code>; confira a impressão digital antes de continuar.
+        </p>
+        <div class="terminal revelar">
+          <div class="barra"><i></i><i></i><i></i></div>
+<pre><span class="comentario"># chave do repositório (confira a impressão digital)</span>
+<span class="prompt">$</span> curl -fsSL https://colmeiaudesc.github.io/colmeia-apt/colmeia-archive-keyring.asc \
+    | sudo gpg --dearmor -o /usr/share/keyrings/colmeia-archive-keyring.gpg
+<span class="prompt">$</span> gpg --show-keys /usr/share/keyrings/colmeia-archive-keyring.gpg
+
+<span class="comentario"># adiciona o repositório</span>
+<span class="prompt">$</span> sudo tee /etc/apt/sources.list.d/colmeia.sources &gt;/dev/null &lt;&lt;'EOF'
+Types: deb
+URIs: https://colmeiaudesc.github.io/colmeia-apt/
+Suites: trixie
+Components: main
+Signed-By: /usr/share/keyrings/colmeia-archive-keyring.gpg
+EOF
+
+<span class="prompt">$</span> sudo apt update
+<span class="prompt">$</span> sudo apt install colmeia-desktop</pre>
+        </div>
+      </div>
+    </section>
+
+    <section>
       <div class="container">
         <div class="titulo-secao revelar">
           <span class="sobretitulo">Roadmap</span>
@@ -250,7 +315,8 @@
             <li><a href="#download">Download</a></li>
             <li><a href="#testar">Testar numa VM</a></li>
             <li><a href="#build">Gerar a ISO</a></li>
-            <li><a href="https://github.com/colmeiaUDESC/colmeia-linux" target="_blank" rel="noopener">Código-fonte</a></li>
+            <li><a href="#repositorios">Repositórios</a></li>
+            <li><a href="https://github.com/ColmeiaUDESC/colmeia-distro" target="_blank" rel="noopener">Código-fonte</a></li>
           </ul>
         </div>
         <div>
