@@ -77,8 +77,17 @@ a { color: var(--mel-escuro); }
   font-size: 1.15rem;
   color: var(--texto);
   text-decoration: none;
+  flex-shrink: 0;
 }
-.marca img { height: 36px; width: auto; display: block; }
+.marca img {
+  height: 36px;
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 131 / 36;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
 .marca .logo-claro { display: none; }
 [data-tema="escuro"] .marca .logo-escuro { display: none; }
 [data-tema="escuro"] .marca .logo-claro { display: block; }
@@ -159,12 +168,37 @@ a { color: var(--mel-escuro); }
 }
 
 @media (max-width: 760px) {
-  .menu-botao { display: block; order: 1; }
-  .redes { margin-left: auto; border-left: 0; padding-left: 0; }
+  .topo .container {
+    gap: 10px;
+    padding-inline: 16px;
+  }
+  .marca img {
+    height: 32px;
+  }
+  .menu-botao {
+    display: block;
+    order: 1;
+    flex-shrink: 0;
+  }
+  .redes {
+    margin-left: auto;
+    border-left: 0;
+    padding-left: 0;
+    flex-shrink: 0;
+  }
+  .redes a {
+    width: 32px;
+    height: 32px;
+  }
+  .tema-botao {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
   .menu {
     display: none;
     position: absolute;
-    top: 64px;
+    top: 100%;
     left: 0;
     right: 0;
     flex-direction: column;
@@ -174,6 +208,26 @@ a { color: var(--mel-escuro); }
   }
   .menu.aberto { display: flex; }
   .menu .menu-destaque { margin: 8px 0 0; }
+}
+
+@media (max-width: 400px) {
+  .topo .container {
+    gap: 6px;
+    padding-inline: 12px;
+  }
+  .marca img {
+    height: 28px;
+  }
+  .redes a,
+  .tema-botao {
+    width: 28px;
+    height: 28px;
+  }
+  .redes svg,
+  .tema-botao svg {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .hero {
@@ -390,7 +444,7 @@ th { background: var(--bg-alt); }
 
 h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 
-.logo-rodape { display: block; height: 44px; width: auto; margin-bottom: 14px; }
+.logo-rodape { display: block; height: 44px; width: auto; aspect-ratio: 160 / 44; object-fit: contain; margin-bottom: 14px; }
 
 .hero-grade > *, .distro-destaque > *, .sobre-grade > * { min-width: 0; }
 .hero-grade {
