@@ -14,7 +14,7 @@ Entre as atividades do grupo estão:
 - caravanas para eventos como a Latinoware;
 - organização do FLISoL, o Festival Latino-americano de Instalação de Software Livre;
 - produção de vídeos e materiais abertos no YouTube;
-- desenvolvimento da **Colmeia Linux**, uma distribuição baseada em Debian para estudantes que estão começando no Linux.
+- desenvolvimento do **Colmeia Linux**, uma distribuição baseada em Debian para estudantes que estão começando no Linux.
 
 Para participar não é obrigatório cursar Ciência da Computação.
 
