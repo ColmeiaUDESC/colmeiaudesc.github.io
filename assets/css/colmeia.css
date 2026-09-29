@@ -530,8 +530,13 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 }
 @media (prefers-reduced-motion: reduce) { .zoom img { animation: none; } }
 @media (max-width: 860px) {
-  .hero-distro { grid-template-columns: minmax(0, 1fr); gap: 28px; }
-  .print-distro { order: -1; }
+  /* celular: selo, título, texto, print e só depois os botões */
+  .hero-distro { grid-template-columns: minmax(0, 1fr); gap: 0; text-align: center; }
+  .hero-distro > div { display: contents; }
+  .hero-distro .selo, .hero-distro .link-codigo { justify-self: center; }
+  .hero-distro h1, .hero-distro .lead { margin-inline: auto; }
+  .print-distro { order: 1; margin-top: 12px; }
+  .hero-distro .botoes, .hero-distro .link-codigo { order: 2; }
 }
 
 .sobre-grade {
