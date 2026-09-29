@@ -73,6 +73,28 @@ if (botaoTema) {
   });
 }
 
+// zoom de imagens: <a href="imagem-grande" data-zoom><img ...></a>
+// sem JavaScript o link continua abrindo a imagem normalmente
+const linksZoom = document.querySelectorAll("a[data-zoom]");
+if (linksZoom.length) {
+  const zoom = document.createElement("dialog");
+  zoom.className = "zoom";
+  zoom.setAttribute("aria-label", "Imagem ampliada");
+  zoom.innerHTML = '<img alt=""><button class="zoom-fechar" type="button" aria-label="Fechar">×</button>';
+  document.body.append(zoom);
+  const imgZoom = zoom.querySelector("img");
+  linksZoom.forEach((link) =>
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      imgZoom.src = link.href;
+      imgZoom.alt = link.querySelector("img")?.alt || "";
+      zoom.showModal();
+    })
+  );
+  // qualquer clique fecha (na imagem, no fundo ou no ×)
+  zoom.addEventListener("click", () => zoom.close());
+}
+
 const ano = document.getElementById("ano");
 if (ano) ano.textContent = new Date().getFullYear();
 
