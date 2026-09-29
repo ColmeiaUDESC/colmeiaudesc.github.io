@@ -530,7 +530,8 @@ h1, h2, h3, h4 { font-family: "Poppins", "Inter", system-ui, sans-serif; }
 }
 @media (prefers-reduced-motion: reduce) { .zoom img { animation: none; } }
 @media (max-width: 860px) {
-  .hero-distro { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .hero-distro { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .print-distro { order: -1; }
 }
 
 .sobre-grade {

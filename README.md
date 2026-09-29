@@ -12,7 +12,6 @@ Entre as atividades do grupo estão:
 
 - aulas e minicursos de programação com ferramentas livres, como o Projeto Resgate;
 - caravanas para eventos como a Latinoware;
-- organização do FLISoL, o Festival Latino-americano de Instalação de Software Livre;
 - produção de vídeos e materiais abertos no YouTube;
 - desenvolvimento do **Colmeia Linux**, uma distribuição baseada em Debian para estudantes que estão começando no Linux.
 
